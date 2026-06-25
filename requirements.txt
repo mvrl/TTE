@@ -1,0 +1,6 @@
+# Inference-only dependencies for the TTE location encoder (tte/).
+# For training / evaluation use environment.yaml instead.
+torch>=2.0
+numpy
+huggingface_hub>=0.24
+safetensors

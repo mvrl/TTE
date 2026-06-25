@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# TTE release: never commit weights / data / scratch
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+outputs/
+data/
+checkpoints/

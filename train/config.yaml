@@ -1,0 +1,47 @@
+#   python train/train.py --config train/config.yaml --devices 2
+
+data:
+  # HuggingFace Arrow dataset of {image (13-band Sentinel-2), lon, lat}, built from
+  # the SatCLIP S2-100K set (https://huggingface.co/datasets/davanstrien/satclip). See train/README.
+  hf_dataset_path: /path/to/satclip_s2_100k_arrow
+  crop_size: 224
+  val_split: 0.14
+  num_workers: 3
+
+model:
+  output_dim: 512
+  image_resolution: 224
+  n_sites: 4096
+  tau_init: 45.0
+  site_embed_dim: 384
+  hidden_dim: 512
+  n_reslayers: 2
+  dropout: 0.5
+  init_sites: train/sites/sites_4096.npz   # land-concentrated Fibonacci init
+  n_registers: 64
+  register_temperature: 0.5
+  register_fixed_gate: 0.5
+  register_dropout: 0.1
+  temperature_anneal_end: 0.2
+  use_cosine_attention: false
+
+training:
+  batch_size: 3192
+  max_epochs: 300
+  grad_clip_norm: 1.0
+
+optimizer:
+  lr_location: 5.0e-4
+  lr_directions: 1.0e-3
+  lr_registers: 2.0e-4
+  lr_image_proj: 5.0e-5
+  lr_logit_scale: 5.0e-5
+  weight_decay: 0.01
+  warmup_epochs: 5
+
+loss:
+  lambda_reconstruction: 100.0
+  lambda_alignment: 0.1
+
+paths:
+  output_dir: ./checkpoints/tte

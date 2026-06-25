@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use TTE, please cite the following."
+title: "Tessellating the Earth: Learnable Spherical Voronoi Partitions for Location Encoding"
+authors:
+  - family-names: Cher
+    given-names: Daniel
+  - family-names: Iqbal
+    given-names: Hamza
+  - family-names: Xing
+    given-names: Eric
+  - family-names: Wei
+    given-names: Brian
+  - family-names: Jacobs
+    given-names: Nathan
+year: 2026
+preferred-citation:
+  type: conference-paper
+  title: "Tessellating the Earth: Learnable Spherical Voronoi Partitions for Location Encoding"
+  authors:
+    - family-names: Cher
+      given-names: Daniel
+    - family-names: Iqbal
+      given-names: Hamza
+    - family-names: Xing
+      given-names: Eric
+    - family-names: Wei
+      given-names: Brian
+    - family-names: Jacobs
+      given-names: Nathan
+  collection-title: "European Conference on Computer Vision (ECCV)"
+  year: 2026

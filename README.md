@@ -41,8 +41,7 @@ model = TTE.from_pretrained("MVRL/TTE").eval()      # ~14 MB, location encoder o
 
 coords = torch.tensor([[37.77, -122.42],               # San Francisco — (lat, lon) in degrees
                        [-3.12,   60.02]])               # Amazon
-emb = model.encode(coords)                             # (N, 512), L2-normalized
-sim = emb @ emb.t()                                    # cosine similarity
+emb = model.encode(coords)
 ```
 
 `load_tte_model` accepts a HuggingFace repo id **or** a local checkpoint:

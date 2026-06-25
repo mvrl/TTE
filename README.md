@@ -9,7 +9,7 @@
 [![Project Page](https://img.shields.io/badge/Project%20Page-TTE-2a9d8f)](https://dcher95.github.io/TTE/)
 [![HF Model](https://img.shields.io/badge/%F0%9F%A4%97-MVRL%2FTTE-ffce44)](https://huggingface.co/MVRL/TTE)
 
-<sub>Daniel Cher · Hamza Iqbal · Eric Xing · Brian Wei · Nathan Jacobs — Washington University in St. Louis · [MVRL](https://mvrl.cse.wustl.edu/)</sub>
+<sub>[Daniel Cher](https://dcher95.github.io/) · [Hamza Iqbal](https://1hamzaiqbal.github.io/index.html) · [Eric Xing](https://ericx003.github.io/) · [Brian Wei](https://brian-j-wei.github.io/) · [Nathan Jacobs](https://jacobsn.github.io/) — Washington University in St. Louis · [MVRL](https://mvrl.cse.wustl.edu/)</sub>
 
 </div>
 

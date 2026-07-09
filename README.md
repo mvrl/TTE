@@ -4,7 +4,7 @@
 
 ### Learnable Spherical Voronoi Partitions for Location Encoding
 
-[![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-red)](https://arxiv.org/abs/2606.27514)
+[![arXiv](https://img.shields.io/badge/arXiv-2606.27514-red)](https://arxiv.org/abs/2606.27514)
 [![ECCV](https://img.shields.io/badge/ECCV-2026-1b6ca8)](#)
 [![Project Page](https://img.shields.io/badge/Project%20Page-TTE-2a9d8f)](https://dcher95.github.io/TTE/)
 [![HF Model](https://img.shields.io/badge/%F0%9F%A4%97-MVRL%2FTTE-ffce44)](https://huggingface.co/MVRL/TTE)
